@@ -1,5 +1,5 @@
 # Crocodile
-<img src="D:\Code\Go\Crocodile\github\Crocodile\assets\logo.webp" style="max-width: 300px">
+<img src="assets\logo.webp" style="max-width: 300px">
 
 一个自用的GoRpc+Web项目架子
 
