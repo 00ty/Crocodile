@@ -1,5 +1,7 @@
 # Crocodile
-<img src="assets\logo.webp" style="max-width: 300px">
+
+<img src="https://img.shields.io/github/stars/00ty/Crocodile?label=GitHub">
+<img src="assets\logo.webp" style="max-width:200px">
 
 一个自用的GoRpc+Web项目架子
 
