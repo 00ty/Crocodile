@@ -1,0 +1,11 @@
+{
+  "name": "Crocodile",
+  "version": "1.2.0",
+  "description": "一个简单的查询验证服务",
+  "scripts": {
+    "dev": "go run ./...",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "楼兰古国",
+  "license": "ISC"
+}
