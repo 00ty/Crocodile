@@ -8,10 +8,7 @@ import (
 	"sync"
 )
 
-type QueryDao struct {
-	/*Data1 []consts.QueryDataDto // GetMobileUidForQQ
-	Data2 []consts.QueryDataDto // GetQQUidForMobile*/
-}
+type QueryDao struct{}
 
 func NewQueryDao() *QueryDao {
 	return &QueryDao{}

@@ -35,8 +35,8 @@ type WsQueryInput struct {
 
 // QueryDto 真坑
 type QueryDto struct {
-	Address  string `gorm:"-" json:"address"`
-	UserName string `gorm:"column:username;default:'空'" json:"qq"`
+	Address  string `json:"address"`
+	UserName string `gorm:"column:username" json:"qq"`
 	Mobile   string `gorm:"column:mobile" json:"mobile"`
 	Uid      string `gorm:"column:uid" json:"uid"`
 }

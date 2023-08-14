@@ -15,7 +15,7 @@ func NewCardService() *CardService {
 
 func (ctr *CardService) Index(c echo.Context) error {
 
-	return c.String(consts.StatusOK, "这是首页")
+	return c.String(consts.StatusOK, "Success")
 }
 
 type AuthorizationDto struct {

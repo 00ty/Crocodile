@@ -3,7 +3,6 @@ package utils
 import (
 	"fmt"
 	"github.com/xluohome/phonedata"
-	"regexp"
 	"strings"
 	"unsafe"
 )
@@ -16,15 +15,6 @@ func StringToByteSlice(s string) []byte {
 	tmp1 := (*[2]uintptr)(unsafe.Pointer(&s))
 	tmp2 := [3]uintptr{tmp1[0], tmp1[1], tmp1[1]}
 	return *(*[]byte)(unsafe.Pointer(&tmp2))
-}
-
-func IsEmailValid(email string) bool {
-	emailRegex := "^[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9]+([.][a-zA-Z0-9]+)*[.][a-zA-Z]{2,3}$"
-	match, err := regexp.MatchString(emailRegex, email)
-	if err != nil {
-		return false
-	}
-	return match
 }
 
 // GetPrForMobile 获取归属地
